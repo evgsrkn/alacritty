@@ -926,16 +926,16 @@ opacity: 1
 
 font:
   normal:
-    family: Hack Nerd Font
+    family: Hack Font
     style: Regular
   bold:
-    family: FiraCode Nerd Font
+    family: Hack Font
     style: Bold
   italic:
-    family: FiraCode Nerd Font
+    family: Hack Font
     style: Italic
   bold_italic:
-    family: FiraCode Nerd Font
+    family: Hack Font
     style: Bold Italic
   size: 14
 draw_bold_text_with_bright_colors: false
@@ -980,9 +980,6 @@ cursor:
     shape: Block
     blinking: Off
     blonk-interval: 750
-
-env:
-    WINIT_X11_SCALE_FACTOR: '1.0'
 
 env:
   TERM: xterm-256color
